@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Coin Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
 
-## Available Scripts
+## 소개
+React로 Coinpaprika API를 호출하고, 가상 화폐의 랭킹과 각 가상 화폐의 현 시세, 지난 시세 등을 그래프와 표로 확인 할 수 있는 웹 사이트를 구현하였습니다.
 
-In the project directory, you can run:
+<br/>
 
-### `npm start`
+## 사용 기능
+### React
+### React Typescript
+### styled-components
+### React Router Dom
+### React Query
+  - fetch보다 간단하게 api를 호출하기 위해 사용하였습니다.
+### Recoil
+  - theme파일에 저장해둔 배경과 폰트 색상을 이용하기 위하여, dark mode를 구현하였습니다.
+### Apexcharts
+  - 코인의 시세 정보를 가져와 인터렉티브하고, 깔끔한 차트로 시각화 하였습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 스터디 노트
+[Coin Tracker 강의 정리](https://velog.io/@bomida/React-Coin-Tracker-강의-정리)
 
-### `npm test`
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 개발 환경
+  - 개발도구: VSCode, Github
+  - 사용언어: React JS, react-typescript
 
-### `npm run build`
+<br/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 레퍼런스
+  - [Nomadcoder](https://nomadcoders.co/?gclid=Cj0KCQjwm6KUBhC3ARIsACIwxBhCS_ap9R7ZfV9msXf-rAMieBlbzGjk0kC4U_XkIYjY-BATk_zhSZ0aAm9-EALw_wcB)
