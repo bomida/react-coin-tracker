@@ -7,6 +7,16 @@ React로 Coinpaprika API를 호출하고, 가상 화폐의 랭킹과 각 가상 
 
 <br/>
 
+## 구현 기능
+  - React Query를 사용해 Coinpaprika API를 호출
+  - light mode / dark mode 구현
+  - 정보들이 모두 로드 될 때까지 loading 텍스트를 띄우도록 구현
+  - 코인 종목을 클릭하면, 클릭한 코인의 id를 받아와 coin 페이지에서 얻은 정보를 화면에 구현
+  - Nested Routing으로 해당 코인의 Chart와 Price 카테고리를 만들어 클릭을 하게 되면 해당 정보를 보여주도록 구현
+  - Apexcharts 라이브러리를 사용해 깔끔한 차트를 구현
+
+<br/>
+
 ## 사용 기능
 ### React
 ### React Typescript
